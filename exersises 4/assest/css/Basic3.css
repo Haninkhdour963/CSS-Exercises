@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh; /* Full height for demonstration */
+    position: relative; /* Positioning context for absolute elements */
+}
+
+.box {
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: lightblue;
+    top: 50px; 
+    left: 50px; 
+}
+
+.box2 {
+    background-color: lightcoral;
+    top: 50px; 
+    left: 1000px; 
+}
+
+.box3 {
+    background-color: lightgreen;
+    top: 170px; 
+    left: 50px; 
+}
+
+.box4 {
+    background-color: lightgoldenrodyellow;
+    top: 170px; 
+    left: 1000px; 
+}

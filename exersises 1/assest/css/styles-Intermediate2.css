@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.h2{
+    background-color: rgb(16, 106, 162);
+
+}
+.txt{
+
+    background-color: blanchedalmond;
+}
+.h3{
+    color:red;
+}
+.highlight{
+    color: blue;
+}
+.txt2{
+
+    background-color: rgb(111, 127, 63);
+
+
+}
+.odd{
+    color:rgb(31, 30, 30);
+    text-align: center;
+}
+.even{
+    color:red;
+    text-align: center;
+}

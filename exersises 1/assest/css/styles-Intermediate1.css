@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(/assest/images/fish.png);
+    background-color: cadetblue;
+}
+
+.p1{
+    background-color: bisque;
+    padding: 20px;
+}
+.p2{
+    background-color: rgb(133, 80, 14);
+    padding: 20px;
+}
+.p3{
+    background: 
+        url('/assest/images/html.png') no-repeat center center, 
+        url('/assest/images/js.png') no-repeat center center;
+    background-size: cover, cover; 
+    padding: 20px;
+    border-radius: 8px; 
+    background-color: rgb(25, 20, 13);
+    color: aliceblue;
+}

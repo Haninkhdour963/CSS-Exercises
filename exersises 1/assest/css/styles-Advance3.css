@@ -1,0 +1,12 @@
+
+img{
+    border-radius: 50%;
+    border: 10px seagreen solid;
+}
+
+.box{
+    background-color: bisque;
+}
+.input{
+    background-color: green;
+}

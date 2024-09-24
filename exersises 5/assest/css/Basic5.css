@@ -1,0 +1,35 @@
+.container{
+  
+    background-color: bisque;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+   
+}
+
+.container1 .b1,.b2,.b3,.b4
+ {
+  
+    margin-top: 10px;
+    width: 50px;
+    height: 60px;
+    background-color: rgb(38, 137, 224);
+    margin:16px;
+    color: black;
+}
+.container2 .b5,.b6,.b7{
+    margin-top: 10px;
+    width: 50px;
+    height: 60px;
+    background-color: rgb(38, 137, 224);
+    margin:16px;
+    color: black;
+}
+.container3 .b8,.b9,.b10{
+    margin-top: 10px;
+    width: 50px;
+    height: 60px;
+    background-color: rgb(38, 137, 224);
+    margin:16px;
+    color: black;
+}

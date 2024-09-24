@@ -1,0 +1,37 @@
+
+
+.box{
+    margin: 10px;
+    padding: 10px;
+
+}
+.visible{
+   
+   overflow: visible;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(142, 84, 84);
+}
+.hidden{
+  overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(154, 149, 159);
+}
+.scroll{
+    overflow: scroll;
+   background-color: rgb(130, 124, 118);
+    font-family: 'Trirong', serif; 
+}
+.auto
+{
+   overflow: auto;
+   background-color: rgb(242, 239, 235);
+    font-family: 'Trirong', serif; 
+}
+.overflow-x-y
+{
+
+    overflow-x: scroll;
+    overflow-y: scroll;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}

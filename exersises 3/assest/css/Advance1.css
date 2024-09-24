@@ -1,0 +1,26 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 232, 232);
+}
+    .div1{
+        display: flex;
+        justify-content: center;
+    }
+
+ .p{
+
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color:rgb(196, 193, 201);
+    
+    box-shadow: 
+    5px 5px 10px rgba(39, 4, 238, 0.3), /* First shadow */
+    10px 10px 20px rgba(27, 205, 27, 0.2), /* Second shadow */
+    15px 15px 30px rgba(153, 160, 10, 0.1), /* Third shadow */
+    15px 15px 30px  rgba(241, 6, 6, 0.1); /* Third shadow */
+   
+   
+}

@@ -1,0 +1,15 @@
+
+.reg{
+    background-color: aqua;
+}
+
+.th{
+    background-color: yellow;
+    color: red;
+}
+.div1{
+    background-image: url(/assest/images/fish.png);
+    width: 200px;
+    height: 200px;
+
+}

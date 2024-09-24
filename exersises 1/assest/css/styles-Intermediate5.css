@@ -1,0 +1,24 @@
+/* Apply the diagonal background colors */
+.diagonal-background {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        135deg, /* Diagonal direction */
+        rgba(31, 31, 122, 0) 0%, /* #1f1f7a with 0% opacity */
+        rgba(31, 31, 122, 0) 25%, /* Transition to transparent */
+        rgba(128, 0, 90, 0.5) 25%, /* #80005a with 50% opacity */
+        rgba(128, 0, 90, 0.5) 50%, /* Transition to 50% opacity */
+        rgba(212, 255, 0, 0.5) 50%, /* #d4ff00 with 50% opacity */
+        rgba(212, 255, 0, 0.5) 75%, /* Transition to 50% opacity */
+        rgba(5, 198, 5, 1) 75%, /* #05c605 with 100% opacity */
+        rgba(5, 198, 5, 1) 100% /* End with fully opaque */
+        );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: white; /* Text color for contrast */
+    text-align: center;
+    height: 400px;
+}

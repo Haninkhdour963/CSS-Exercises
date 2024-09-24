@@ -1,0 +1,38 @@
+.container {
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap; 
+     
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.b1, .b2, .b3 {
+    margin-top: 10px;
+    width: 50px;
+    height: 60px;
+    background-color: rgb(78, 224, 38);
+    margin: 16px;
+    color: black;
+    flex: 1 1 300px;   
+}
+
+.b4,.b5, .b6 {
+    margin-top: 10px;
+    width: 50px;
+    height: 60px;
+    background-color: rgb(224, 38, 38);
+    margin: 16px;
+    color: black;
+    flex: 1 1 300px; 
+}
+
+.b7,.b8, .b9, .b10 {
+    margin-top: 10px;
+    width: 50px;
+    height: 60px;
+    background-color: rgb(38, 224, 156);
+    margin: 16px;
+    color: black;
+    flex: 1 1 300px; 
+}

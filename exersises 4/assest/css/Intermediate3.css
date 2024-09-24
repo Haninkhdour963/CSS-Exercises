@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.fixed-image {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.fixed-image img {
+    max-width: 100px; 
+    height: auto;
+}
+
+.content {
+    margin-left: 120px; 
+    padding: 20px;
+}

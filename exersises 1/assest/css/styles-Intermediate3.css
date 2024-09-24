@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.item1{
+   background-color: rgb(44, 82, 147);
+   color: aliceblue;
+}
+.item5{
+   background-color:pink;
+   color: aliceblue;
+}
+.item7{
+    background-color: orange;
+    color: aliceblue;
+}

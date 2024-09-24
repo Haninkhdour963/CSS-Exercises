@@ -1,0 +1,13 @@
+
+.background-image  ,p {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/assest/images/laptop.png'); 
+    background-repeat: repeat-; 
+    background-size: auto; 
+    background-position: top left; 
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+  
+}

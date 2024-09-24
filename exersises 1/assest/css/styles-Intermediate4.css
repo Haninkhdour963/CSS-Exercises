@@ -1,0 +1,43 @@
+
+.form{
+    border: #f44500 7px solid;
+     width: 400px;
+     height: 500px;
+     border: 2px;
+     background-color: #f1a688;
+     margin-top: 90px;
+     margin-left: 300px;
+      
+ }
+ 
+h1,h2,h3,input,label{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(136, 125, 125);
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 300px;
+    align-content: center;
+    padding-top: 10px;
+}
+select,textarea{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: rgb(85, 87, 88);
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 300px;
+    align-content: center   ;
+
+}
+.submit{
+    background-color: rgb(206, 206, 45);
+}
+.h2{
+    background-color: #963008;
+    width: 400px;
+    margin: 0;
+
+}

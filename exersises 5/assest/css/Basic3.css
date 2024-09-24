@@ -1,0 +1,19 @@
+.container{
+    background-color: aliceblue;
+    width: 500px;
+    height: 400px;
+   display: flex;
+   justify-content: center;
+   padding-top: 200px;
+
+}
+.center{
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    padding: 0px;
+    margin: 8px;
+    text-align: center;
+    justify-items: center;
+    padding-top: 50px;
+}

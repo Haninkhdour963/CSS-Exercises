@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #923434; 
+    background-image: url("/assest/images/laptop.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.h1{
+    background-color: blue;
+    color: yellowgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    padding-left: 8px;
+}
+
+

@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    width: 400px;
+    height: 200px;
+}
+.b1{
+    flex: 3;
+    margin-top: 10px;
+      background-color: rgb(38, 137, 224);
+      color: black;
+   }
+   
+    .b2
+   {
+   
+    flex: 1;
+      margin-top: 10px;
+      background-color: rgb(38, 224, 38);
+      color: black;
+  
+  }

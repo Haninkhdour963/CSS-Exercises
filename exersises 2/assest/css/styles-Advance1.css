@@ -1,0 +1,19 @@
+h1{
+    color: green;
+    text-decoration:underline;
+}
+.box{
+    width: 400px;
+    overflow:scroll;
+    scrollbar-width:auto;
+    background-color: black;
+    color: rgb(92, 92, 30);
+}
+h2,h3{
+    font-size: 20px;
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande' 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif 
+}
+.opc{
+    opacity: 0.5;
+}

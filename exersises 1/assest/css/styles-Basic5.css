@@ -1,0 +1,22 @@
+/* Ensure the body takes up the full viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: url('/assest/images/flower.png') repeat-y;
+    background-size: auto 100%; 
+}
+
+
+ .h1 {
+    font-size: 2em;
+    margin: 02 px;
+}
+
+ .p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
