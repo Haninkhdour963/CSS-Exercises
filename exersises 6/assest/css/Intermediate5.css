@@ -1,0 +1,34 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(1,300px);
+    grid-template-rows: repeat(3,300px); /* Three rows: top and bottom auto-sized, middle takes remaining space */
+    opacity:50%; /* Optional: space between the boxes */
+    gap: 5px;
+}
+
+
+
+/* Optional: Different background colors for clarity */
+.container .top {
+    grid-template-columns: 1;
+    grid-template-rows: 1;
+    background-color: #2196F3; /* Blue for the top box */
+}
+
+.container .middle {
+  
+    grid-template-rows: 3;
+    background-color: #FF5722; /* Orange for the middle box */
+    position: relative;
+    left: 400px;
+    bottom: 400px;
+}
+
+.container .bottom {
+  
+    grid-template-rows:2 ;
+    background-color: #FFC107; /* Yellow for the bottom box */
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}

@@ -1,0 +1,55 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 500px); /* 3 columns of 100px each */
+    grid-template-rows: repeat(3, 100px); /* 2 rows of 100px each */
+    gap: 10px; /* Optional: space between the boxes */
+}
+
+.box {
+    background-color: #4CAF50; /* Common background color for boxes */
+    color: white; /* Text color */
+    display: flex; /* Center text inside the box */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+/* Placement of boxes */
+.box1 {
+    grid-column: 1; /* Place in column 1 */
+    grid-row: 1;    /* Place in row 1 */
+    width: 500px;
+    height: 200px;
+   
+    
+}
+
+.box2 {
+    grid-column: 2; /* Place in column 2 */
+    grid-row: 1;    /* Place in row 1 */
+    margin:8px;
+    padding: 8px;
+    width: 1000px;
+    
+}
+
+.box3 {
+    grid-column: 1; /* Place in column 3 */
+    grid-row: 3;    /* Place in row 1 */
+     
+}
+
+.box4 {
+    grid-column: 2; /* Place in column 1 */
+    grid-row: 2;    /* Place in row 2 */
+}
+
+.box5 {
+    grid-column: 3; /* Place in column 2 */
+    grid-row: 2;    /* Place in row 2 */
+}
+
+.box6 {
+    grid-column: 3; /* Place in column 3 */
+    grid-row: 3;    /* Place in row 2 */
+}

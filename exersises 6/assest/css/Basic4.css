@@ -1,0 +1,9 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    gap: 10px;
+}
+.container img{
+    padding: 20px;
+    margin: 10px;
+}
